@@ -1,0 +1,32 @@
+body {
+  background-color: #1D1F21;
+  background-size: cover;
+}
+
+#splash-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Source Code Pro', monospace;
+  color: #e0e0e0;
+  font-size: 20px;
+}
+
+.cyan {
+  color: #8abeb7;
+}
+
+.purple {
+  color: #b294bb;
+}
+
+.cursor {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
