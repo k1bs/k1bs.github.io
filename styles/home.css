@@ -10,7 +10,13 @@ body {
   height: 100vh;
   font-family: 'Source Code Pro', monospace;
   color: #e0e0e0;
-  font-size: 20px;
+  font-size: 4.5vmin;
+  line-height: 1.4;
+}
+
+#splash-content pre {
+  display: inline-block;
+  text-align: left;
 }
 
 .cyan {
@@ -19,6 +25,18 @@ body {
 
 .purple {
   color: #b294bb;
+}
+
+.red {
+  color: #cc6666;
+}
+
+.yellow {
+  color: #f0c674;
+}
+
+.gray {
+  color: #969896;
 }
 
 .cursor {
