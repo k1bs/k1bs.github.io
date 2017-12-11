@@ -10,7 +10,7 @@ body {
   height: 100vh;
   font-family: 'Source Code Pro', monospace;
   color: #e0e0e0;
-  font-size: 4.5vmin;
+  font-size: 3.8vmin;
   line-height: 1.4;
 }
 
@@ -37,6 +37,10 @@ body {
 
 .gray {
   color: #969896;
+}
+
+.blue {
+  color: #81a2be;
 }
 
 .cursor {
