@@ -8,7 +8,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: 'Roboto Mono', monospace;
   color: #e0e0e0;
   font-size: 3.8vmin;
   line-height: 1.4;
@@ -17,6 +16,10 @@ body {
 #splash-content pre {
   display: inline-block;
   text-align: left;
+}
+
+pre {
+  font-family: 'Roboto Mono', monospace;
 }
 
 .cyan {
