@@ -122,11 +122,38 @@ main {
 #projects-container-title {
   border-bottom: 3px solid #A48AAD;
   padding-bottom: 5px;
+  margin: 40px auto;
 }
 
 .project {
-  width: 100%;
+  /* width: 100%; */
   max-width: 700px;
+  padding: 15px;
+}
+
+.project h3 {
+  font-size: 2.2em;
+  color: #A48AAD;
+  /* padding-left: 40px; */
+  margin: 0;
+}
+
+.project-inner {
+  display: flex;
+}
+
+.project-img {
+  max-width: 30%;
+}
+
+.project-img img {
+  width: 100%;
+  height: auto;
+}
+
+.project-text {
+  flex: 4;
+  padding-left: 30px;
 }
 
 .cursor {
