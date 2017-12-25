@@ -36,6 +36,15 @@ li:hover {
   text-align: left;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #A48AAD;
+}
+
 pre {
   font-family: 'Roboto Mono', monospace;
 }
@@ -129,6 +138,7 @@ main {
   /* width: 100%; */
   max-width: 700px;
   padding: 15px;
+  margin-bottom: 50px;
 }
 
 .project h3 {
@@ -140,6 +150,7 @@ main {
 
 .project-inner {
   display: flex;
+  align-items: center;
 }
 
 .project-img {
@@ -188,6 +199,23 @@ main {
 
   .hero-words {
     font-size: 1em;
+  }
+
+  .project-inner {
+    flex-direction: column;
+  }
+
+  .project-img {
+    max-width: 50%;
+    margin-bottom: 30px;
+  }
+
+  #logo-container {
+    font-size: 3vw;
+  }
+  
+  .mock {
+    margin-bottom: -30px;
   }
 }
 
