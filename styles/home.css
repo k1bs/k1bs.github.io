@@ -131,7 +131,8 @@ main {
 #projects-container-title {
   border-bottom: 3px solid #A48AAD;
   padding-bottom: 5px;
-  margin: 40px auto;
+  margin: 50px auto;
+  margin-bottom: 70px;
 }
 
 .project {
@@ -213,7 +214,7 @@ main {
   #logo-container {
     font-size: 3vw;
   }
-  
+
   .mock {
     margin-bottom: -30px;
   }
