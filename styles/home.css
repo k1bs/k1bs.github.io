@@ -169,6 +169,13 @@ main {
   padding-left: 30px;
 }
 
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .cursor {
   animation: blink-animation 1s steps(2, start) infinite;
   vertical-align: -10%;
