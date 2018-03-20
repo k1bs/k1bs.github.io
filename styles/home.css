@@ -58,9 +58,9 @@ nav {
 }
 
 main {
-  background: linear-gradient(-45deg, #d8b5e5, #A48AAD, #715d77);
-  background-size: 400% 400%;
-  animation: gradient-anim 15s ease infinite;
+  background: linear-gradient(-45deg, #e4c5f0, #A48AAD, #65486e);
+  background-size: 200% 200%;
+  animation: gradient-anim 8s ease infinite;
 }
 
 #logo-container {
