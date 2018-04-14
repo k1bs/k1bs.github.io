@@ -58,9 +58,12 @@ nav {
 }
 
 main {
-  background: linear-gradient(-45deg, #e4c5f0, #A48AAD, #65486e);
-  background-size: 200% 200%;
-  animation: gradient-anim 8s ease infinite;
+  background-image: url('../assets/mountain-back.jpg');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #logo-container {
@@ -89,13 +92,15 @@ main {
 
 .hero-title {
   width: 100%;
+  text-shadow: 3px 3px 10px #000000;
 }
 
 .hero-words {
   display: flex;
   width: 80%;
-  color: #2B2E32;
+  /* color: #2B2E32; */
   font-size: 1.3em;
+  text-shadow: 3px 3px 10px #000000;
 }
 
 .cyan {
