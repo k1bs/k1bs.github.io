@@ -136,11 +136,33 @@ main {
   justify-content: center;
 }
 
-#projects-container-title {
+.projects-container-title {
   border-bottom: 3px solid #A48AAD;
   padding-bottom: 5px;
   margin: 50px auto;
   margin-bottom: 70px;
+}
+
+.contact-container-title {
+  border-bottom: 3px solid #A48AAD;
+  padding-bottom: 5px;
+  margin: 50px auto;
+  margin-bottom: 40px;
+  color: #e0e0e0;
+}
+
+.contact-container {
+  background-image: url('../assets/sky-back.jpg');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .project {
@@ -218,6 +240,38 @@ main {
   vertical-align: -10%;
 }
 
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  width: 60vw;
+  max-width: 600px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  border-style: none;
+  border-color: Transparent;
+  overflow: auto;
+  outline: none;
+  box-sizing: border-box;
+  resize: none;
+  background-color: #e0e0e0;
+}
+
+.right-align {
+  flex-direction: row-reverse;
+}
+
+.right-align input {
+  padding: .5em;
+  color: #2B2E32;
+  margin: 5px 0;
+}
+
 @media only screen and (max-width: 600px) {
   nav {
     flex-direction: column;
@@ -266,6 +320,10 @@ main {
 
   .mock {
     margin-bottom: -30px;
+  }
+
+  .form-group {
+    width: 80vw;
   }
 }
 
