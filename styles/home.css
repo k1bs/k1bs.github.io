@@ -1,5 +1,5 @@
 body {
-  background-color: #2B2E32;
+  background-color: #1a1c1f;
   background-size: cover;
   font-family: 'Roboto', sans-serif;
   color: #e0e0e0;
@@ -58,9 +58,12 @@ nav {
 }
 
 main {
-  background: linear-gradient(-45deg, #e4c5f0, #A48AAD, #65486e);
-  background-size: 200% 200%;
-  animation: gradient-anim 8s ease infinite;
+  background-image: url('../assets/mountain-back2.jpg');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #logo-container {
@@ -88,14 +91,17 @@ main {
 }
 
 .hero-title {
+  color: #1a1c1f;
   width: 100%;
+  text-shadow: 3px 3px 30px rgba(224, 224, 224, 0.8);
 }
 
 .hero-words {
   display: flex;
   width: 80%;
-  color: #2B2E32;
+  color: #1a1c1f;
   font-size: 1.3em;
+  text-shadow: 3px 3px 30px rgba(224, 224, 224, 0.8);
 }
 
 .cyan {
@@ -124,18 +130,41 @@ main {
 
 .projects-container {
   background-color: #e0e0e0;
-  color: #2B2E32;
+  color: #1a1c1f;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-#projects-container-title {
+.projects-container-title {
   border-bottom: 3px solid #A48AAD;
   padding-bottom: 5px;
   margin: 50px auto;
   margin-bottom: 70px;
+}
+
+.contact-container-title {
+  border-bottom: 3px solid #A48AAD;
+  padding-bottom: 5px;
+  margin: 50px auto;
+  margin-bottom: 40px;
+  color: #e0e0e0;
+}
+
+.contact-container {
+  background-image: url('../assets/sky-back2.jpg');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2em;
 }
 
 .project {
@@ -186,10 +215,12 @@ main {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  opacity: 0;
+  transition: all 1s;
 }
 
 .button {
-  background-color: #2B2E32;
+  background-color: #1a1c1f;
   padding: 10px;
   border-radius: 30px;
   margin: 6px;
@@ -211,6 +242,43 @@ main {
 .cursor {
   animation: blink-animation 1s steps(2, start) infinite;
   vertical-align: -10%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  width: 60vw;
+  max-width: 600px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  border-style: none;
+  border-color: Transparent;
+  overflow: auto;
+  outline: none;
+  box-sizing: border-box;
+  resize: none;
+  background-color: #e0e0e0;
+  padding: 5px 12px;
+}
+
+.right-align {
+  flex-direction: row-reverse;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.right-align input {
+  padding: .5em;
+  color: #1a1c1f;
+  margin: 5px 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -261,6 +329,10 @@ main {
 
   .mock {
     margin-bottom: -30px;
+  }
+
+  .form-group {
+    width: 80vw;
   }
 }
 
