@@ -215,6 +215,8 @@ main {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  opacity: 0;
+  transition: all 1s;
 }
 
 .button {

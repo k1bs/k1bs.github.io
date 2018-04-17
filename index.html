@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="styles/home.css">
     <script src="https://use.fontawesome.com/e6103790a5.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   </head>
   <body>
     <nav>
@@ -40,7 +41,7 @@
             <br /><br />
             You should totally hire me.</p>
         </div>
-        <div class="button-container">
+        <div class="button-container hidden">
           <div class="button">
             <a href="mailto:alex@alex-kibler.com" title="Email"><i class="fa fa-envelope fa-fw fa-lg" aria-hidden="true"></i></a>
           </div>
@@ -184,4 +185,18 @@
       <h4 class="center-align">© alex kibler, 2018</h4>
     </div>
   </body>
+  <script>
+    window.onload = () =>{
+      if (!window.jQuery) {
+        let buttons = document.querySelector('.button-container')
+        buttons.style.opacity = 1;
+      }
+    }
+
+    $(document).ready(() => {
+      setTimeout(() => {
+        $('.button-container').css('opacity', 1)
+      }, 500)
+    })
+  </script>
 </html>
