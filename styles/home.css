@@ -57,15 +57,6 @@ nav {
   margin: 0 2em;
 }
 
-main {
-  background-image: url('../assets/mountain-back2.jpg');
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 #logo-container {
   font-family: 'Roboto Mono', monospace;
 }
@@ -76,7 +67,7 @@ main {
   margin: 0.67em 0;
 }
 
-.hero {
+.hero-inner {
   /* width: 100%; */
   padding: 3em 4em;
   max-width: 700px;
@@ -84,6 +75,15 @@ main {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+.hero {
+  background-image: url('../assets/mountain-back2.jpg');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero h1 {
@@ -333,6 +333,10 @@ input, textarea {
 
   .form-group {
     width: 80vw;
+  }
+
+  .contact-container, .hero {
+    background-attachment: scroll;
   }
 }
 
