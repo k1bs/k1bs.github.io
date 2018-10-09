@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/k1bs
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.alex-kibler.com
+  * I am k1bs (https://keybase.io/k1bs) on keybase.
+  * I have a public key ASAN0QenUMKlLs0cW4HEiY-g8B_E9EvCXGi5o6TzDYoWrwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01200dd107a750c2a52ecd1c5b81c4898fa0f01fc4f44bc25c68b9a3a4f30d8a16af0a",
+      "host": "keybase.io",
+      "kid": "01200dd107a750c2a52ecd1c5b81c4898fa0f01fc4f44bc25c68b9a3a4f30d8a16af0a",
+      "uid": "05e1854fa1d23ac7f870c2c8a9d0ba19",
+      "username": "k1bs"
+    },
+    "merkle_root": {
+      "ctime": 1539104798,
+      "hash": "7d9c0d15e331ce9618fc07e4981e10d4459739a8008f08535fd7ff5d4835915def7cd870846991002dcbe3036644e44b721553e14292c01f8235ff5f56124e73",
+      "hash_meta": "7a698ec9ba95d434f99c4253bd7828233a926ae435a327c5218c712f98b38a8b",
+      "seqno": 3769733
+    },
+    "service": {
+      "entropy": "VuPf3XlG0b50l72TXLlR/yJ5",
+      "hostname": "www.alex-kibler.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.7.3"
+  },
+  "ctime": 1539104829,
+  "expire_in": 504576000,
+  "prev": "5dd036704ec42b9497932f8af348cad28f58c41c84910ba58b8b53c69b62d10a",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgDdEHp1DCpS7NHFuBxImPoPAfxPRLwlxouaOk8w2KFq8Kp3BheWxvYWTESpcCC8QgXdA2cE7EK5SXky+K80jK0o9YxByEkQuli4tTxpti0QrEILlR967VuP28AfIkYHZuL5TyXgSclrdxB2IPW37gwNCvAgHCo3NpZ8RAKcopUIrRQ3ccBva5rid0H3I2/k46KbGaJ0r9f+oP+B5TAAPuqNR+TbFJe90Fd/MqM4+Z/fWOK3vIL7sfBAafCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINS3YBtXn0fNkxX6zRnG4MS6LOgZuDTVVP3Gc4Wmli0Co3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/k1bs
+
+==================================================================
