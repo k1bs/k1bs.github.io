@@ -9,193 +9,32 @@
     <meta name="theme-color" content="#404040">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Alex Kibler - Web Developer</title>
-    <meta name="description" content="Alex Kibler is a Denver based full-stack web developer, with experience in React, Redux, and Ruby on Rails.
-      Alex is also highly skilled in visual styling through CSS.">
+    <title>Ted E. Bear Academy - For the Kind and Strong</title>
+    <meta name="description" content="Ted E. Bear Academy is an early childhood education provider in East Tennessee.">
     <link rel="stylesheet" href="styles/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="styles/home.css">
     <script src="https://use.fontawesome.com/e6103790a5.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   </head>
-  <body>
-    <nav>
-      <div id="logo-container">
-        <span class="wordmark">alex<span class="purple">Kibler</span></span>
-      </div>
-      <!-- <ul>
-        <li>work</li>
-        <li>about</li>
-        <li>contact</li>
-      </ul> -->
-    </nav>
-    <main>
-      <div class="hero">
-        <div class="hero-inner">
-          <div class="hero-title">
-            <h1>developer,<br />gamer,<br />coffee enthusiast<span class="cursor">_</span></h1>
-          </div>
-          <div class="hero-words">
-            <p>Hi, I'm Alex. I'm a full-stack web developer,
-              lover (and streamer) of games and game design, pressure cooker
-              aficionado, React ninja, and have been making glasses cool again since 1997.
-              <br /><br />
-              You should totally hire me.</p>
-          </div>
-          <div class="button-container hidden">
-            <div class="button">
-              <a href="https://github.com/k1bs" title="Github" target="_blank"><i class="fa fa-github fa-fw fa-2x" aria-hidden="true"></i></a>
-            </div>
-            <div class="button">
-              <a href="assets/resume.pdf" title="Resume" target="_blank"><i class="fa fa-file-text fa-fw fa-lg" aria-hidden="true"></i></a>
-            </div>
-            <div class="button">
-              <a href="https://www.linkedin.com/in/alexkibler/" title="LinkedIn" target="_blank"><i class="fa fa-linkedin fa-fw fa-2x" aria-hidden="true"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="projects-container">
-        <h3 class="projects-container-title">projects</h3>
-        <div class="project">
-          <div class="project-inner">
-            <div class="project-img">
-              <img src="assets/screen-cm.png" alt="chk(mark) web app screenshot">
-            </div>
-            <div class="project-text">
-              <div class="project-title-container">
-                <a href="https://chkmark.herokuapp.com/" target="_blank"><h3>chk(mark)</h3></a>
-                <div class="button">
-                  <a href="https://github.com/k1bs/chkmark" target="_blank"><i class="fa fa-github fa-fw fa-2x" aria-hidden="true"></i></a>
-                </div>
-              </div>
-              <p>chk(mark) is a simple note-taking web app that allows users to
-                write in Markdown, with the viewable note rendered in HTML.
-                This full CRUD project makes use of a React/Redux front end, with a Rails
-                API backend, and uses rexxars' excellent <a href="https://github.com/rexxars/react-markdown" target="_blank">react-markdown</a> module.
-                <br /><br />
-                I undertook this project with the express purpose of
-                teaching myself how to implement and build with Redux. Casting aside
-                my usual React habits was difficult, but I now have a deep
-                appreciation for how a library like Redux could simplify a
-                larger project.</p>
-                <p>Moving forward, I plan on further refactoring for edge
-                cases around large images and complex tables.</p>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project-inner">
-            <div class="project-img">
-              <img class="mock" src="assets/mock-lb.png" alt="Lionbot mockup">
-            </div>
-            <div class="project-text">
-              <div class="project-title-container">
-                <a href="https://aoa-lionbot.herokuapp.com/" target="_blank"><h3>lionbot</h3></a>
-                <div class="button">
-                  <a href="https://github.com/k1bs/lionbot" target="_blank"><i class="fa fa-github fa-fw fa-2x" aria-hidden="true"></i></a>
-                </div>
-              </div>
-              <p>Lionbot is a <a href="https://www.twitch.tv/">Twitch.tv</a> chat bot, allowing users to automate
-                certain commands in their Twitch chatroom. When a Twitch streamer
-                becomes popular, they often find themselves answering the same
-                viewer questions repeatedly. Lionbot helps with that.
-                <br /><br />
-                This project is a full CRUD JavaScript stack, using React for the
-                front end. This was a group project, and really helped me
-                learn good group git habits.
-                <br /><br />
-                For a demonstration, use the 'demo'/'demo' username/password
-                combination. In addition, you can see it working in <a href="https://www.twitch.tv/k1bsTV">my Twitch chat</a>.</p>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project-inner">
-            <div class="project-img">
-              <img class="mock" src="assets/mock-wp.png" alt="Wilderness Passport mockup">
-            </div>
-            <div class="project-text">
-              <div class="project-title-container">
-                <a href="https://wilderness-passport.herokuapp.com/" target="_blank"><h3>wilderness passport</h3></a>
-                <div class="button">
-                  <a href="https://github.com/k1bs/wilderness-passport" target="_blank"><i class="fa fa-github fa-fw fa-2x" aria-hidden="true"></i></a>
-                </div>
-              </div>
-              <p>Wilderness Passport combines my love of the outdoors with my
-                love for full CRUD web apps. This app allows users to add
-                any of the United States' National Parks to their 'passport'.
-                Once added, users can indicate that they have visited that
-                park and receive park news and updates.
-                <br /><br />
-                This project uses a full JavaScript stack, utilizing EJS as a
-                templating engine. In addition, this project also makes use of
-                the National Park Service API, which has taught me the valuable
-                lesson of not basing a project on a terrible API.</p>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="project-inner">
-            <div class="project-img">
-              <img src="assets/screen-tym.png" alt="Test Your Might screenshot">
-            </div>
-            <div class="project-text">
-              <div class="project-title-container">
-                <a href="http://test-your-might.bitballoon.com/" target="_blank"><h3>test your might</h3></a>
-                <div class="button">
-                  <a href="https://github.com/k1bs/testyourmight" target="_blank"><i class="fa fa-github fa-fw fa-2x" aria-hidden="true"></i></a>
-                </div>
-              </div>
-              <p>Test Your Might is my loving recreation of the Mortal Kombat
-                <a href="https://www.youtube.com/watch?v=RiwMEI2wNxQ&feature=youtu.be&t=3m17s">minigame of the same name</a>. Two players
-                attempt to shatter the boards in front of their avatars. As the
-                board material changes, the difficulty increases!
-                <br /><br />
-                This project makes use of extensive DOM manipulation, primarily
-                using jQuery. Future improvements include the players' ability to
-                select characters and further refactoring.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="contact-container">
-        <h3 class="contact-container-title">get in touch</h3>
-        <form action="https://formspree.io/alex@alex-kibler.com" method="POST">
-          <div class="form-group">
-            <label for="name">name</label>
-            <input type="text" name="name">
-          </div>
-          <div class="form-group">
-            <label for="email">email</label>
-            <input type="email" name="_replyto">
-          </div>
-          <div class="form-group">
-            <label for="message">message</label>
-            <textarea name="message" id="" cols="30" rows="10"></textarea>
-          </div>
-          <div class="form-group right-align">
-            <input type="submit" value="email me" />
-          </div>
-        </form>
-      </div>
-    </main>
-    <div class="logo-container">
-      <h4 class="center-align">© alex kibler, 2018</h4>
+  <body class="teba">
+    <div class="teba-image-container">
+      <img class="teba-image" src="assets/teba-web-color.png" alt="Ted E. Bear Academy Logo">
+      <h2>Coming soon...</h2>
     </div>
   </body>
   <script>
-    window.onload = () =>{
-      if (!window.jQuery) {
-        let buttons = document.querySelector('.button-container')
-        buttons.style.opacity = 1;
-      }
-    }
+  //   window.onload = () =>{
+  //     if (!window.jQuery) {
+  //       let buttons = document.querySelector('.button-container')
+  //       buttons.style.opacity = 1;
+  //     }
+  //   }
 
-    $(document).ready(() => {
-      setTimeout(() => {
-        $('.button-container').css('opacity', 1)
-      }, 500)
-    })
-  </script>
+  //   $(document).ready(() => {
+  //     setTimeout(() => {
+  //       $('.button-container').css('opacity', 1)
+  //     }, 500)
+  //   })
+  // </script>
 </html>
